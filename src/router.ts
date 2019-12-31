@@ -15,11 +15,7 @@ const routes = [
     name: "photo-upload",
     component: () => import("./components/photoUpload/index.vue")
   },
-  {
-    path: "/photos",
-    name: "photos",
-    component: () => import("./components/photoList/index.vue")
-  },
+
   {
     path: "/**",
     redirect: "/"

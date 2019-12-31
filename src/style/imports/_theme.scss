@@ -1,0 +1,53 @@
+.buttons_theme1 {
+  $size: 35px;
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  opacity: $btnOpacity;
+  transition: all 0.3s linear;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.buttons_theme2 {
+  $size: 35px;
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+  font-size: 20px;
+  border: 1px solid whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  opacity: $btnOpacity;
+  transition: all 0.3s linear;
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.buttons_theme3 {
+  $size: 40px;
+  width: $size;
+  height: $size;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  opacity: $btnOpacity;
+  transition: all 0.3s linear;
+  &:hover {
+    opacity: 1;
+  }
+}

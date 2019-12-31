@@ -9,4 +9,7 @@ export class PhotoUploadService {
   async findAll(): Promise<IPhotosRes> {
     return await axios.get(envURL + "/photos");
   }
+  async delete(id: string): Promise<IPhotosRes> {
+    return await axios.get(envURL + "/delete/" + id);
+  }
 }

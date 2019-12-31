@@ -4,12 +4,14 @@ export interface IPhoto {
   description: string;
   imageURL: string;
   public_id: string;
+  tags: string[];
 }
 
 export interface IPhotoForm {
   title: string;
   description: string;
   image: File | null;
+  tags: string[];
 }
 
 export interface IPhotoRes {

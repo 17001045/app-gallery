@@ -8,9 +8,7 @@
             <li class="nav-item">
               <router-link class="nav-link" to="/">Home</router-link>
             </li>
-            <li class="nav-item">
-              <router-link class="nav-link" to="/photos">photos</router-link>
-            </li>
+
             <li class="nav-item">
               <router-link class="nav-link" to="/photo-upload">photo upload</router-link>
             </li>
